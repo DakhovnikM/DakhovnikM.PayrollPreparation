@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>DakhovnikM.PayrollPreparation.PayrollPreparationRepository</AssemblyName>
+    <RootNamespace>DakhovnikM.PayrollPreparation.PayrollPreparationRepository</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PayrollPreparationBL\PayrollPreparationBL.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -3,20 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31213.239
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollPreparationConsole", "PayrollPreparationConsole\PayrollPreparationConsole.csproj", "{82B9C124-2668-4D79-95E5-BCDB5C1642C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollPreparationConsole", "PayrollPreparationConsole\PayrollPreparationConsole.csproj", "{82B9C124-2668-4D79-95E5-BCDB5C1642C8}"
 	ProjectSection(ProjectDependencies) = postProject
 		{84293538-10DF-4E1A-9ABD-A2D132A937A2} = {84293538-10DF-4E1A-9ABD-A2D132A937A2}
 		{CCB15BF0-0A43-4515-963E-37A3147E65FA} = {CCB15BF0-0A43-4515-963E-37A3147E65FA}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollPreparationBL", "PayrollPreparationBL\PayrollPreparationBL.csproj", "{CCB15BF0-0A43-4515-963E-37A3147E65FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollPreparationBL", "PayrollPreparationBL\PayrollPreparationBL.csproj", "{CCB15BF0-0A43-4515-963E-37A3147E65FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollPreparationRepository", "Repository\PayrollPreparationRepository.csproj", "{84293538-10DF-4E1A-9ABD-A2D132A937A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollPreparationRepository", "PayrollPreparationRepository\PayrollPreparationRepository.csproj", "{84293538-10DF-4E1A-9ABD-A2D132A937A2}"
 	ProjectSection(ProjectDependencies) = postProject
 		{CCB15BF0-0A43-4515-963E-37A3147E65FA} = {CCB15BF0-0A43-4515-963E-37A3147E65FA}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollPreparationTest", "PayrollPreparationTest\PayrollPreparationTest.csproj", "{13C26205-F1F6-4C82-A0ED-CDB7D06CE56A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollPreparationTest", "PayrollPreparationTest\PayrollPreparationTest.csproj", "{13C26205-F1F6-4C82-A0ED-CDB7D06CE56A}"
 	ProjectSection(ProjectDependencies) = postProject
 		{84293538-10DF-4E1A-9ABD-A2D132A937A2} = {84293538-10DF-4E1A-9ABD-A2D132A937A2}
 		{CCB15BF0-0A43-4515-963E-37A3147E65FA} = {CCB15BF0-0A43-4515-963E-37A3147E65FA}

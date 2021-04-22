@@ -23,4 +23,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PayrollPreparationBL\PayrollPreparationBL.csproj" />
+    <ProjectReference Include="..\PayrollPreparationRepository\PayrollPreparationRepository.csproj" />
+  </ItemGroup>
+
 </Project>
