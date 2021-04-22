@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31213.239
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollPreparationConsole", "PayrollPreparationConsole\PayrollPreparationConsole.csproj", "{82B9C124-2668-4D79-95E5-BCDB5C1642C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollPreparationBL", "PayrollPreparationBL\PayrollPreparationBL.csproj", "{CCB15BF0-0A43-4515-963E-37A3147E65FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{82B9C124-2668-4D79-95E5-BCDB5C1642C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82B9C124-2668-4D79-95E5-BCDB5C1642C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82B9C124-2668-4D79-95E5-BCDB5C1642C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB15BF0-0A43-4515-963E-37A3147E65FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB15BF0-0A43-4515-963E-37A3147E65FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB15BF0-0A43-4515-963E-37A3147E65FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB15BF0-0A43-4515-963E-37A3147E65FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
