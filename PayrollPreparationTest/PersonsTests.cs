@@ -1,14 +1,20 @@
-﻿using System;
 using System.Collections.Generic;
+using System;
 
+using NUnit.Framework;
 using DakhovnikM.PayrollPreparation.PayrollPreparationBL;
-using DakhovnikM.PayrollPreparation.PayrollPreparationRepository;
 
-namespace DakhovnikM.PayrollPreparation.PayrollPreparationConsole
+namespace DakhovnikM.PayrollPreparation.PayrollPreparationTest
 {
-    class Program
+    public class PersonsTests
     {
-        static void Main( string[] args )
+        [SetUp]
+        public void Setup()
+        {
+        }
+
+        [Test]
+        public void ManagerTotalPay()
         {
             Manager manager = new Manager("test", new List<DayReport>()
             {
@@ -17,8 +23,7 @@ namespace DakhovnikM.PayrollPreparation.PayrollPreparationConsole
                 new DayReport(DateTime.Now.AddDays(-1)," test",7,"test message")
             });
 
-            Console.WriteLine();
-
+            Assert.IsTrue(manager.TotalPey == 29750);
         }
     }
 }

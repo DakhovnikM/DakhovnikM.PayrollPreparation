@@ -12,6 +12,7 @@ namespace DakhovnikM.PayrollPreparation.PayrollPreparationBL
         public decimal TotalPey { get; set; }
 
         private decimal BonusPerMonth => 20000;
+
         public Manager( string name, List<DayReport> dayReports ) : base(name, 200000, dayReports)
         {
             peyPerHour = MonthSalary / Settings.WorkingHoursPerMonth;
