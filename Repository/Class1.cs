@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PayrollPreparationBL
+namespace DakhovnikM.PayrollPreparation.Repository
 {
     public class Class1
     {

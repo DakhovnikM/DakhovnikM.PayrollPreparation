@@ -1,9 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <AssemblyName />
+    <AssemblyName>DakhovnikM.PayrollPreparation.PayrollPreparationConsole</AssemblyName>
+    <RootNamespace>DakhovnikM.PayrollPreparation.PayrollPreparationConsole</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PayrollPreparationBL\PayrollPreparationBL.csproj" />
+  </ItemGroup>
 
 </Project>
